@@ -17,3 +17,90 @@ html { box-sizing: border-box; }
 body {
     background-color: #bdc3c7;
 }
+
+h1 {
+    color: whitesmoke;
+    font-family: "Montserrat";
+    font-size: 25px;  
+}
+.hlavicka{
+    position: relative;
+}
+
+.foto{
+    max-width: 250px;
+    box-shadow: 2px 4px 10px #31363b;
+}
+
+.logo { 
+    border-radius: 50%;
+    background-color: #b92e81;
+    position: absolute;
+    top: 150px;
+    left:200px;
+    z-index: 10;
+   
+    
+}
+.obsah{
+    background-color:#31363b ;
+    max-width: 250px;
+    font-family: "Source Sans Pro";
+    color:rgb(201, 194, 194);
+    padding: 10px 20px;
+    position: relative;
+    margin: 0px;
+}
+
+.odkazy {
+    background-color:#31363b;
+    max-width:250px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ .odkazy li {
+    display: inline-block;
+    text-decoration:none;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+   
+}
+ 
+.odkazy a {
+    color:rgb(201, 194, 194) ;
+    text-decoration: none;
+    display: inline-block;    
+}
+
+.portfolio a:hover {
+   background-color: #e74c3c;
+  
+}
+
+.twitter a:hover{
+    background-color: #1da1f2;
+   
+}
+   
+.facebook a:hover {
+    background-color: #3b5998;
+   
+}
+
+.portfolio a{
+    padding: 10px 50px;
+    box-shadow: 1px 1px 6px 2px rgb(201, 194, 194);
+
+}
+
+.twitter a,.facebook a { 
+    padding: 10px 20px;
+    box-shadow: 1px 1px 6px 2px rgb(201, 194, 194);
+}
+   
+
+
+
+
+
