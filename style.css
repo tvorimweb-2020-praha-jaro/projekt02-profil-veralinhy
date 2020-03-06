@@ -18,59 +18,81 @@ body {
     background-color: #bdc3c7;
 }
 
-h1 {
-    color: whitesmoke;
-    font-family: "Montserrat";
-    font-size: 25px;  
+.profil{
+    background-color:#31363b;
+    width:250px;
+    margin: 50px;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    color:#bdc3c7;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5)
 }
+
 .hlavicka{
     position: relative;
 }
 
 .foto{
-    max-width: 250px;
-    box-shadow: 2px 4px 10px #31363b;
+   width:100%;
+   height: auto;
+    display:block;
 }
 
 .logo { 
     border-radius: 50%;
     background-color: #b92e81;
     position: absolute;
-    top: 150px;
-    left:200px;
+    bottom: -25px;
+    right:25px;
     z-index: 10;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
    
     
 }
 .obsah{
-    background-color:#31363b ;
-    max-width: 250px;
-    font-family: "Source Sans Pro";
-    color:rgb(201, 194, 194);
-    padding: 10px 20px;
-    position: relative;
-    margin: 0px;
+    padding: 30px 20px 20px 20px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;  
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    color: #fff;
 }
 
 .odkazy {
-    background-color:#31363b;
-    max-width:250px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
 }
 
  .odkazy li {
-    display: inline-block;
-    text-decoration:none;
-    font-family: "Montserrat";
-    text-transform: uppercase;
-   
+    display: inline-block; 
+
+}
+.portfolio {
+    width: 100%;
+    border-top: 1px solid #3f464d;
+    border-bottom: 1px solid #3f464d;
+}
+.twitter , .facebook  { 
+    width: 50%
+}
+.facebook {
+    border-right:1px solid #3f464d;
 }
  
 .odkazy a {
-    color:rgb(201, 194, 194) ;
+    color:#bdc3c7;
     text-decoration: none;
-    display: inline-block;    
+    display: block; 
+    padding: 10px;
+   text-align: center;
+   font-family: "Montserrat";
+    text-transform: uppercase;
+
 }
 
 .portfolio a:hover {
@@ -79,8 +101,7 @@ h1 {
 }
 
 .twitter a:hover{
-    background-color: #1da1f2;
-   
+    background-color: #1da1f2;  
 }
    
 .facebook a:hover {
@@ -88,16 +109,10 @@ h1 {
    
 }
 
-.portfolio a{
-    padding: 10px 50px;
-    box-shadow: 1px 1px 6px 2px rgb(201, 194, 194);
-
+.odkazy a: :hover{
+    color:#fff;
 }
 
-.twitter a,.facebook a { 
-    padding: 10px 20px;
-    box-shadow: 1px 1px 6px 2px rgb(201, 194, 194);
-}
    
 
 
